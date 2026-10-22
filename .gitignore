@@ -1,0 +1,15 @@
+.env
+.env.*
+!.env.example
+*.duckdb
+*.duckdb.wal
+*.sqlite
+*.sqlite3
+*.db
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
+.cache/
+.DS_Store

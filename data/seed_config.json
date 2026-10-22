@@ -1,0 +1,37 @@
+{
+  "synthetic": true,
+  "seed": 20260617,
+  "experiment_id": 202,
+  "experiment_name": "Personalized PDP Recommendations v2",
+  "control_probability": 0.038,
+  "treatment_probability": 0.04287,
+  "expected_relative_lift": 0.12815789473684203,
+  "baseline_provenance": "Synthetic segment configuration; not measured historical data",
+  "segments": {
+    "apparel_beauty": {
+      "share": 0.5,
+      "control_cr": 0.042,
+      "treatment_relative_lift": 0.15
+    },
+    "electronics": {
+      "share": 0.25,
+      "control_cr": 0.032,
+      "treatment_relative_lift": 0.08
+    },
+    "home": {
+      "share": 0.25,
+      "control_cr": 0.036,
+      "treatment_relative_lift": 0.12
+    }
+  },
+  "refund_rate": {
+    "control": 0.012,
+    "treatment": 0.015
+  },
+  "aov_mean_inr": {
+    "control": 2500.0,
+    "treatment": 2620.0
+  },
+  "aov_log_sigma": 0.45,
+  "customers": 50000
+}
